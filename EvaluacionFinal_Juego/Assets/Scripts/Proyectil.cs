@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Proyectil : MonoBehaviour
 {
+    public float Velocidad;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,6 +13,20 @@ public class Proyectil : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(Vector2.up * Velocidad * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Enemigo")
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+
+        if(collision.gameObject.tag == "Boundary")
+        {
+            Destroy(gameObject);
+        }
     }
 }
