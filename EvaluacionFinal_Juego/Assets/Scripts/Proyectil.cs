@@ -3,6 +3,7 @@ using UnityEngine;
 public class Proyectil : MonoBehaviour
 {
     public float Velocidad;
+    public GameObject Explosion;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,7 @@ public class Proyectil : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemigo")
         {
+            Instantiate(Explosion, transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }

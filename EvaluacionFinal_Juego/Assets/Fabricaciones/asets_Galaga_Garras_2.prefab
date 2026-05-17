@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   Velocidad: 7
+  Explosion: {fileID: 5379986337500141698, guid: 08ca981377ae60744aee9b3f83680aff, type: 3}
 --- !u!61 &-2726463241760989425
 BoxCollider2D:
   m_ObjectHideFlags: 0
