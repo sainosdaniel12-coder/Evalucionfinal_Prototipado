@@ -366,6 +366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fd4cf370cc20e4897f6bf901a56e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuntosManager
+  score: 0
+  puntosTexto: {fileID: 345272586}
 --- !u!4 &316844291
 Transform:
   m_ObjectHideFlags: 0

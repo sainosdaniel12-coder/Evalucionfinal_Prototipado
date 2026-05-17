@@ -4,11 +4,12 @@ public class Proyectil : MonoBehaviour
 {
     public float Velocidad;
     public GameObject Explosion;
+    private PuntosManager puntosManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        puntosManager = GameObject.Find("PuntosManager").GetComponent<PuntosManager>();
     }
 
     // Update is called once per frame
@@ -23,6 +24,7 @@ public class Proyectil : MonoBehaviour
         {
             Instantiate(Explosion, transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
+            puntosManager.UpdateScore(50);
             Destroy(gameObject);
         }
 
