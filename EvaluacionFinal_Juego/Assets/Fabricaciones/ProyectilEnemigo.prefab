@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a488d436e2a21124ab7c0b47443e9a56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProyectilEnemigo
-  Velocidad: 10
+  Velocidad: 13
 --- !u!61 &2943622200830140854
 BoxCollider2D:
   m_ObjectHideFlags: 0

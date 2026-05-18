@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3654225077136054580
+--- !u!1 &9046335458276163398
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6429656936677234416}
-  - component: {fileID: 837838077716016243}
-  - component: {fileID: 7308847740362458688}
-  - component: {fileID: -2726463241760989425}
+  - component: {fileID: 3770341160934613366}
+  - component: {fileID: 7995332439179877097}
+  - component: {fileID: -3831050000769403757}
   m_Layer: 0
-  m_Name: asets_Galaga_Garras_2
-  m_TagString: Untagged
+  m_Name: asets_Galaga_Tractor3_0
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6429656936677234416
+--- !u!4 &3770341160934613366
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3654225077136054580}
+  m_GameObject: {fileID: 9046335458276163398}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.0312, y: 0.0312, z: 0.0312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.38, y: -2.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &837838077716016243
+--- !u!212 &7995332439179877097
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3654225077136054580}
+  m_GameObject: {fileID: 9046335458276163398}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,37 +82,23 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -127741491889494619, guid: decedd4eefb4c9f429c0c2d8ea456818, type: 3}
+  m_Sprite: {fileID: 4677042221857287016, guid: a396b09fee2d8b94ea79ae6923612b67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 38.4375, y: 46.65625}
+  m_Size: {x: 17.42, y: 18.27}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &7308847740362458688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3654225077136054580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc4fef9ef88984c4cb3957c3a841070d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  Velocidad: 13
-  Explosion: {fileID: 5379986337500141698, guid: 08ca981377ae60744aee9b3f83680aff, type: 3}
---- !u!61 &-2726463241760989425
+--- !u!61 &-3831050000769403757
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3654225077136054580}
+  m_GameObject: {fileID: 9046335458276163398}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -137,7 +122,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -145,11 +130,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.4375, y: 46.65625}
-    newSize: {x: 38.4375, y: 46.65625}
+    oldSize: {x: 17.42, y: 18.27}
+    newSize: {x: 17.42, y: 18.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 38.4375, y: 46.65625}
+  m_Size: {x: 17.42, y: 18.27}
   m_EdgeRadius: 0

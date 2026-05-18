@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel_1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: "Assets/Scenes/Men\xFA.unity"
+    guid: 930588f62816a2a4f8967bc93445b5a0
+  - enabled: 1
+    path: Assets/Scenes/Nivel_2.unity
+    guid: aae3c8e413c77124194347b6a96866fb
+  - enabled: 1
+    path: Assets/Scenes/Game_Over.unity
+    guid: e839fd60b0fa0cf46b91acaeb60aa8e1
+  - enabled: 1
+    path: Assets/Scenes/Victoria.unity
+    guid: da3d282d6fbe82c439f3ee1deefe1438
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
