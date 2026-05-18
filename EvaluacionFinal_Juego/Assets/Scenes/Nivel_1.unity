@@ -613,11 +613,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMax
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMin
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536641283657661480, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: m_Name
@@ -974,11 +974,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMax
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMin
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536641283657661480, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: m_Name
@@ -1768,7 +1768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5220a101cfd334345b57b2f889ae6ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  Velocidad: 2
+  Velocidad: 5
 --- !u!4 &1453593835
 Transform:
   m_ObjectHideFlags: 0
@@ -2242,11 +2242,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMax
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMin
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536641283657661480, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: m_Name
@@ -2561,11 +2561,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMax
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7331282717795337677, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: spawnMin
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536641283657661480, guid: 6409ba90da0713843bbf4f0af01b9d2b, type: 3}
       propertyPath: m_Name
