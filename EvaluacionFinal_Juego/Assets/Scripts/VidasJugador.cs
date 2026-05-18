@@ -41,4 +41,29 @@ public class VidasJugador : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "ProyectilEnemigo")
+        {
+            Destroy(collision.gameObject);
+            Vidas -= 1;
+            for (int i = 0; i < VidasUI.Length; i++)
+            {
+                if (i < Vidas)
+                {
+                    VidasUI[i].enabled = true;
+                }
+                else
+                {
+                    VidasUI[i].enabled = false;
+                }
+            }
+            if (Vidas <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
 }
+
