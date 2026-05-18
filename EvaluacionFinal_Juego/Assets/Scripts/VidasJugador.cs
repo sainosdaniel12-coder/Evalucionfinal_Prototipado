@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class VidasJugador : MonoBehaviour
 {
@@ -61,6 +62,7 @@ public class VidasJugador : MonoBehaviour
             }
             if (Vidas <= 0)
             {
+                SceneManager.LoadScene("Game_Over");
                 Destroy(gameObject);
             }
         }
