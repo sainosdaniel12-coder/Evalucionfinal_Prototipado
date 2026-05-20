@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Victoria.unity
     guid: da3d282d6fbe82c439f3ee1deefe1438
+  - enabled: 1
+    path: Assets/Scenes/Controles.unity
+    guid: 0912d96569244544bb3dbf44effb7251
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
