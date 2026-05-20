@@ -517,7 +517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13, y: 172}
+  m_AnchoredPosition: {x: 9, y: 172}
   m_SizeDelta: {x: 1424.7223, y: 219.6284}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &514936470
@@ -540,7 +540,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Forest invasion
+  m_text: Jungle invasion
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee48755552258b74b94ee17b44fe19c1, type: 2}
   m_sharedMaterial: {fileID: -2356091983246734199, guid: ee48755552258b74b94ee17b44fe19c1, type: 2}
@@ -1119,11 +1119,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 514936469}
   - {fileID: 1821193171}
   - {fileID: 718308468}
   - {fileID: 1542011030}
   - {fileID: 1303143088}
+  - {fileID: 514936469}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
